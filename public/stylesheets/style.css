@@ -1,0 +1,29 @@
+canvas{
+    margin-bottom: 20px;
+}
+#container {
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 55%;
+}
+.chat-input {
+    width: 70%;
+    height: 35px;
+    border: solid 1px #444;
+}
+.chat-submit {
+    width: 50px;
+    height: 35px;
+    border: solid 1px #444;
+}
+.chat-window {
+    height: 600px;
+    width: 40%;
+}
+#chatSection {
+    float: left;
+    border: 1px grey solid;
+    border-radius: 10px;
+    padding: 10px;
+}

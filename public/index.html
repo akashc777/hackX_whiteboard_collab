@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>White Board</title>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/javascripts/convert.js"></script>
+        <script src="/javascripts/socket.js"></script>
+        <script src="/javascripts/paper.js"></script>
+        <link rel="stylesheet" href="/stylesheets/style.css" />
+    </head>
+    <body>
+        <h1>Whiteboard</h1>
+        <canvas
+            id="draw"
+            resize="true"
+            keepalive="true"
+            style="height: 90vh; width: 50%; border: 3px solid black"
+        >
+        </canvas>
+        <div id="container">
+            <h2>Chat</h2>
+            <div id="chatSection">
+                <div class="chat-window"></div>
+                <form class="chat-form">
+                    <label class="chat-label">
+                        Enter a message:
+                        <input type="text" class="chat-input" />
+                    </label>
+                    <input type="submit" class="chat-submit" value="enter" />
+                </form>
+            </div>
+        </div>
+        <script
+            type="text/paperscript"
+            src="/javascripts/draw.js"
+            canvas="draw"
+        ></script>
+    </body>
+</html>
