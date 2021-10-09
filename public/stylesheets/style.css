@@ -11,19 +11,25 @@ canvas{
     width: 70%;
     height: 35px;
     border: solid 1px #444;
+    border-radius: 10px;
 }
 .chat-submit {
     width: 50px;
     height: 35px;
     border: solid 1px #444;
+    border-radius: 10px;
 }
 .chat-window {
     height: 600px;
-    width: 40%;
 }
 #chatSection {
     float: left;
     border: 1px grey solid;
     border-radius: 10px;
     padding: 10px;
+}
+
+.text-align-right{
+    text-align: right;
+
 }

@@ -1,5 +1,6 @@
 // Connect to the nodeJs Server
 const socket = io.connect('/whiteboard');
+const chatSocket = io.connect('/chat');
 
 // (1): Send a ping event with 
 // some data to the server
