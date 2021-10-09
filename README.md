@@ -10,7 +10,7 @@ It's whiteboard and chat app combined together for multiusers. In front end it u
 
 ### Demo:
 
-![DemoGif](/images/demo.gif)
+![DemoGif](/public/images/demo.gif)
 
 ##### libraries used :
 
